@@ -8,7 +8,8 @@ st.title('AI-Research-Assistance')
 
 st.subheader("Hi I am summer: Your research help Assistant ")
 
-row1 = st.columns(2)
-row2 = st.columns(2)
+row1 = st.columns(3)
+row2 = st.columns(3)
 
 grid =[col.container(height= 200) for col in row1 + row2]
+
